@@ -26,7 +26,7 @@ def quizlib():
     ans7c = ["drawing", "doodling", "doodled", "doodle", "draw", "drawn","drew","illustrating", "illustrated","illustrate","sketch", "sketching", "sketched", "sketcher"]
     ans7c2 = ["computer games","pc games", "pc game", "computer game", "games","gaming","gamed","gamer", "video games", "video game", "game"]
     ans7c3 = ["programming", "programmer", "program","programmed", "programs", "code", "coder", "coding", "coded","codes", "script", "scripting", "scripted", "scripts", "scripter", "develop", "developed", "developing", "developer"]
-    ans7c4 = ["puzzle game", "puzzle gaming", "puzzle games", "puzzling", "puzzle", "puzzled"]
+    ans7c4 = ["puzzle game", "puzzle gaming", "puzzle games", "puzzling", "puzzle", "puzzled", "puzzles"]
 
 
     ans1 = input("What is my nationality and ethnic background? (answers are spelling sensitive!): ")

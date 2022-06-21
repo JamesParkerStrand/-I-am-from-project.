@@ -109,7 +109,7 @@ class app(tk.Tk):
         self.geometry("450x590")
 
         self.label = ttk.Label(self,text="Choose any of the buttons below!",font=25)
-        self.label.pack()
+        self.label.pack(pady=5)
 
         self.Nationalitybutton = ttk.Button(self,text="Your nationality and ethnic background", command=self.nationality)
         self.Nationalitybutton.pack(pady=15)
@@ -155,6 +155,7 @@ class app(tk.Tk):
     def area(self):
         self.answer.config(text="* I was raised in Kent Wa. \n* I now currently live in Tacoma.")
     def group(self):
+        self.geometry("520x600")
         self.answer.config(text="* As far as groups go,\n I play on a minecraft server with some friends and family.")
     def hobbies(self):
         self.answer.config(text="* Drawing, pc games, programming\n (obvious one), puzzle games")
